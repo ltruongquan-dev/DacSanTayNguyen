@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Ga nuong Buon Don",
+    "image": "asset/img/anNgay/gaNuong.jpg",
+    "description": "Thịt gà ở đây có vị thơm ngon rất khác bởi cách nuôi gà rất công phu, tất cả đều được thả vườn, ăn côn trùng, cỏ non và lúa rẫy.",
+    "category": "anNgay",
+    "buttonText": "chon mon"
+  },
+  {
+    "id": 2,
+    "name": "Lau ca Lang",
+    "image": "asset/img/anNgay/laucalang.jpg",
+    "description": "món ăn ngon với thịt cá mềm ngọt, ít xương dăm và lớp da béo giòn. Nước dùng thường nấu theo vị măng chua, chua ngọt hoặc nấu mẻ, ăn kèm bún tươi, rau muống, hoa chuối, kèo nèo và rau nhút..",
+    "category": "anNgay",
+    "buttonText": "chon mon"
+  },
+  {
+    "id": 3,
+    "name": "Com Lam",
+    "image": "asset/img/anNgay/comLam.jpg",
+    "description": "Từ lâu, cơm lam đã là một món ăn truyền thống của những người con vùng núi. Cơm được nấu trong ống tre, nén chặt bằng lá chuối đem vùi trong lửa. Khi chín sẽ có vị thanh ngọt của tre hòa nguyện với vị ngọt của hạt gạo, rất hấp dẫn người thưởng thức.",
+    "category": "anNgay",
+    "buttonText": "chon mon"
+  },
+  {
+    "id": 4,
+    "name": "Gỏi lá",
+    "image": "asset/img/anNgay/goiLa.jpg",
+    "description": "Gỏi lá là một trong những món ăn thuộc top 10 đặc sản Việt Nam có giá trị ẩm thực sâu sắc. Nó được lựa chọn từ 40 loại lá khác nhau, có thể ăn kèm với thịt ba chỉ, da heo thái mỏng, tôm rang chấm với nước chấm sền sệt.",
+    "category": "anNgay",
+    "buttonText": "chon mon"
+  },
+  {
+    "id": 5,
+    "name": "Bò Khô",
+    "image": "asset/img/dongHop/boKho.jpg",
+    "description": "Bò khô Tây Nguyên thơm ngon đậm vị, được tẩm ướp gia vị tỉ mỉ, sấy khô tự nhiên giữ nguyên độ ngọt dai của thịt bò rẫy.",
+    "category": "dongHop",
+    "buttonText": "Thêm vào giỏ hàng"
+  },
+  {
+    "id": 6,
+    "name": "Ca cao nguyên chất",
+    "image": "asset/img/dongHop/caCaoNguyenChat.jpg",
+    "description": "Bột ca cao nguyên chất từ vùng đất đỏ Đắk Lắk, hương thơm nồng nàn, vị đắng thanh tự nhiên giàu giá trị dinh dưỡng.",
+    "category": "dongHop",
+    "buttonText": "Thêm vào giỏ hàng"
+  },
+  {
+    "id": 7,
+    "name": "Hạt bí sấy",
+    "image": "asset/img/dongHop/HatBiSay.jpg",
+    "description": "Hạt bí sấy khô tự nhiên, hạt to mẩy, giòn bùi thơm ngậy, món ăn vặt lành mạnh cho cả gia đình.",
+    "category": "dongHop",
+    "buttonText": "Thêm vào giỏ hàng"
+  },
+  {
+    "id": 8,
+    "name": "Hạt điều",
+    "image": "asset/img/dongHop/hatDieu.webp",
+    "description": "Hạt điều rang muối thơm giòn, béo bùi chuẩn vị nông sản Tây Nguyên chất lượng cao.",
+    "category": "dongHop",
+    "buttonText": "Thêm vào giỏ hàng"
+  },
+  {
+    "id": 9,
+    "name": "Hạt Mắc Ca",
+    "image": "asset/img/dongHop/hatMacCa.jpg",
+    "description": "Hạt mắc ca Tây Nguyên nứt vỏ tự nhiên, hạt màu trắng sữa thơm giòn béo ngậy được ví như nữ hoàng quả khô.",
+    "category": "dongHop",
+    "buttonText": "Thêm vào giỏ hàng"
+  },
+  {
+    "id": 10,
+    "name": "Me dốt ớt đỏ",
+    "image": "asset/img/dongHop/meDotOtDo.jpg",
+    "description": "Me dốt chua ngọt thấm vị muối ớt cay nồng, món ăn vặt khoái khẩu chuẩn vị đặc sản đường phố.",
+    "category": "dongHop",
+    "buttonText": "Thêm vào giỏ hàng"
+  }
+]
