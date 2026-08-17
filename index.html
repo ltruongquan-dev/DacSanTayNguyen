@@ -1,218 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dac San Tay Nguyen</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content="Đặc sản Tây Nguyên - tinh hoa núi rừng, nông sản và món ngon bản địa.">
+    <title>Đặc Sản Tây Nguyên | Tinh hoa đại ngàn</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-
 <body>
+    <header>
+        <div class="main-header">
+            <div class="wrap main-header-inner">
+                <a class="brand" href="index.html" aria-label="Đặc Sản Tây Nguyên">
+                    <span class="brand-mark"><i class='bx bxs-leaf'></i></span>
+                    <span class="brand-text">
+                        <strong>ĐẶC SẢN</strong>
+                        <b>TÂY NGUYÊN</b>
+                        <small>Tinh hoa đại ngàn</small>
+                    </span>
+                </a>
 
-    <nav class="navbar">
-        <div class="logo">
-            <a href="#">DacSanTayNguyen</a>
-        </div>
+                <form class="search-box" action="#">
+                    <input type="search" placeholder="Bạn muốn tìm đặc sản gì?" aria-label="Tìm kiếm sản phẩm">
+                    <button type="submit" aria-label="Tìm kiếm"><i class='bx bx-search'></i></button>
+                </form>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="contact.html">Liên hệ</a></li>
-
-        </ul>
-        <div class="nav-btn">
-            <a href="#" class="btn"><strong>Đăng nhập</strong></a>
-        </div>
-    </nav>
-
-    <div class="forH1">
-        <h1>MÓN ĂN NGAY</h1>
-    </div>
-
-    <div class="container">
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/anNgay/gaNuong.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Gà nướng BUÔN ĐÔN</h4>
-                <p>Thịt gà ở đây có vị thơm ngon rất khác bởi cách nuôi gà rất công phu, tất cả đều được thả vườn, ăn
-                    côn
-                    trùng, cỏ non và lúa rẫy.</p>
-                <button class="add-to-cart">
-                    Chọn món
-                </button>
+                <div class="header-actions">
+                    <a href="#" class="action-item">
+                        <i class='bx bx-user-circle'></i>
+                        <span><small>Tài khoản</small><strong>Đăng nhập</strong></span>
+                    </a>
+                    <a href="#" class="action-item cart-action">
+                        <i class='bx bx-shopping-bag'></i>
+                        <span class="cart-count">0</span>
+                        <span><small>Giỏ hàng</small><strong>Sản phẩm</strong></span>
+                    </a>
+                </div>
             </div>
         </div>
 
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/anNgay/laucalang.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
+        <nav class="category-nav">
+            <div class="wrap nav-inner">
+                <a href="#san-pham" class="category-trigger"><i class='bx bx-menu'></i> Danh mục sản phẩm</a>
+                <a href="#ban-chay">Sản phẩm bán chạy</a>
+                <a href="#an-ngay">Món ăn ngay</a>
+                <a href="#dong-hop">Sản phẩm đóng gói</a>
+                <a href="#qua-tang">Quà Tây Nguyên</a>
+                <a href="#cau-chuyen">Câu chuyện đại ngàn</a>
             </div>
+        </nav>
+    </header>
 
-            <div class="card-content">
-                <h4>Lẩu cá lăng</h4>
-                <p>Món ăn ngon với thịt cá mềm ngọt, ít xương dăm và lớp da béo giòn. Nước dùng thường nấu theo vị măng
-                    chua, chua ngọt hoặc nấu mẻ, ăn kèm bún tươi, rau muống, hoa chuối, rau kèo nèo và rau rút..</p>
-                <button class="add-to-cart">
-                    Chọn món
-                </button>
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="wrap hero-content">
+                <span class="eyebrow">Tinh hoa từ vùng đất đỏ bazan</span>
+                <h1>Mang hương vị<br><em>Đại Ngàn</em> về nhà</h1>
+                <p>Khám phá những món ngon và nông sản đặc trưng Tây Nguyên, được chọn lọc từ nguyên liệu địa phương và câu chuyện văn hóa bản địa.</p>
+                <div class="hero-buttons">
+                    <a href="#san-pham" class="btn btn-primary">Khám phá sản phẩm <i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#cau-chuyen" class="btn btn-light">Câu chuyện Tây Nguyên</a>
+                </div>
             </div>
+        </section>
+
+        <section class="service-strip">
+            <div class="wrap services">
+                <div class="service-item"><i class='bx bx-package'></i><div><strong>Đóng gói chỉn chu</strong><span>Giữ trọn hương vị</span></div></div>
+                <div class="service-item"><i class='bx bx-truck'></i><div><strong>Giao hàng tận nơi</strong><span>Nhanh chóng, tiện lợi</span></div></div>
+                <div class="service-item"><i class='bx bx-check-shield'></i><div><strong>Nguồn gốc rõ ràng</strong><span>Chọn lọc kỹ càng</span></div></div>
+                <div class="service-item"><i class='bx bx-gift'></i><div><strong>Quà tặng bản sắc</strong><span>Đậm chất Tây Nguyên</span></div></div>
+            </div>
+        </section>
+
+        <section class="section best-seller" id="ban-chay">
+            <div class="wrap">
+                <div class="section-heading split-heading">
+                    <div>
+                        <span class="section-kicker">Được yêu thích</span>
+                        <h2>Sản phẩm bán chạy</h2>
+                        <p>Những hương vị Tây Nguyên được khách hàng lựa chọn nhiều.</p>
+                    </div>
+                    <a href="#san-pham" class="text-link">Xem tất cả <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+
+                <div class="featured-grid">
+                    <article class="featured-card featured-main">
+                        <img src="asset/img/dongHop/ruouCan.jpg" alt="Rượu cần Tây Nguyên" loading="lazy">
+                        <div class="featured-content">
+                            <span>Đặc sản nổi bật</span>
+                            <h3>Rượu cần Tây Nguyên</h3>
+                            <p>Men say đại ngàn ủ trong ché theo nét truyền thống, hương thơm dịu và đậm bản sắc lễ hội Tây Nguyên.</p>
+                            <a href="#dong-hop">Khám phá ngay <i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </article>
+                    <article class="featured-card">
+                        <img src="asset/img/dongHop/hatMacCa.jpg" alt="Hạt mắc ca Tây Nguyên" loading="lazy">
+                        <div class="featured-content"><span>Nông sản</span><h3>Hạt Mắc Ca</h3><a href="#dong-hop">Xem sản phẩm</a></div>
+                    </article>
+                    <article class="featured-card">
+                        <img src="asset/img/dongHop/caCaoNguyenChat.jpg" alt="Ca cao nguyên chất" loading="lazy">
+                        <div class="featured-content"><span>Hương vị cao nguyên</span><h3>Ca Cao Nguyên Chất</h3><a href="#dong-hop">Xem sản phẩm</a></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section products-section" id="an-ngay">
+            <div class="wrap" id="san-pham">
+                <div class="section-heading centered">
+                    <span class="section-kicker">Ẩm thực bản địa</span>
+                    <h2>Món ăn ngay</h2>
+                    <p>Hương vị núi rừng mộc mạc, đặc sắc và khó quên.</p>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-image"><img src="asset/img/anNgay/gaNuongBuonDon.jpg" alt="Gà nướng Buôn Đôn" loading="lazy"><button class="favorite" aria-label="Yêu thích"><i class='bx bx-heart'></i></button><span class="badge">Nổi bật</span></div>
+                        <div class="product-info"><span class="product-category">Món ăn Tây Nguyên</span><h3>Gà nướng Buôn Đôn</h3><p>Gà thả vườn nướng thơm lừng, da vàng giòn, thịt ngọt chắc và đậm vị núi rừng.</p><div class="product-bottom"><span class="price">Đặc sản bản địa</span><a href="#" class="quick-buy">Chọn món</a></div></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image"><img src="asset/img/anNgay/lauRauRungCaLang.jpg" alt="Lẩu cá lăng" loading="lazy"><button class="favorite" aria-label="Yêu thích"><i class='bx bx-heart'></i></button></div>
+                        <div class="product-info"><span class="product-category">Món ăn Tây Nguyên</span><h3>Lẩu rau rừng cá lăng</h3><p>Lẩu rau rừng cá lăng là đặc sản Tây Nguyên, hấp dẫn bởi thịt cá lăng ngọt béo, các loại rau rừng có vị đắng nhẹ, chua thanh đặc trưng, cùng nước lẩu đậm đà thơm mùi sả, nghệ và măng chua.</p><div class="product-bottom"><span class="price">Hương vị sông núi</span><a href="#" class="quick-buy">Chọn món</a></div></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image"><img src="asset/img/anNgay/comLamTayNguyen.jpg" alt="Cơm lam" loading="lazy"><button class="favorite" aria-label="Yêu thích"><i class='bx bx-heart'></i></button><span class="badge green">Truyền thống</span></div>
+                        <div class="product-info"><span class="product-category">Món ăn Tây Nguyên</span><h3>Cơm lam Tây Nguyên</h3><p>Gạo nếp nướng trong ống tre, thơm dịu mùi tre non và giữ trọn vị ngọt tự nhiên của hạt gạo.</p><div class="product-bottom"><span class="price">Mộc mạc, thơm ngon</span><a href="#" class="quick-buy">Chọn món</a></div></div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image"><img src="asset/img/anNgay/goiLaKonTum.webp" alt="Gỏi lá" loading="lazy"><button class="favorite" aria-label="Yêu thích"><i class='bx bx-heart'></i></button></div>
+                        <div class="product-info"><span class="product-category">Món ăn Tây Nguyên</span><h3>Gỏi lá Kon Tum</h3><p>Sự hòa quyện của nhiều loại lá rừng gồm hơn 40 loại lá khác nhau, ăn kèm với thịt ba chỉ, tôm đất, bì heo và nước chấm sánh đậm làm từ gạo nếp men sả cùng tôm thịt băm nhuyễn tạo nên hương vị độc đáo.</p><div class="product-bottom"><span class="price">Tinh hoa rau rừng</span><a href="#" class="quick-buy">Chọn món</a></div></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="story-banner" id="cau-chuyen">
+            <div class="wrap story-grid">
+                <div class="story-image"><img src="asset/img/banner/canhQuanTayNguyen.jpg" alt="Cảnh quan cao nguyên và vườn cà phê Tây Nguyên" loading="lazy"></div>
+                <div class="story-content">
+                    <span class="section-kicker light">Câu chuyện đại ngàn</span>
+                    <h2>Không chỉ là đặc sản,<br>đó còn là một miền ký ức</h2>
+                    <p>Mỗi sản vật đều mang theo khí hậu cao nguyên, đất đỏ bazan và bàn tay của người bản địa. Chúng tôi mong muốn đưa những hương vị chân thật ấy đến gần hơn với mọi gia đình Việt.</p>
+                    <a href="#" class="btn btn-outline">Tìm hiểu thêm <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section products-section packaged" id="dong-hop">
+            <div class="wrap">
+                <div class="section-heading split-heading">
+                    <div><span class="section-kicker">Mang về làm quà</span><h2>Sản phẩm đóng gói</h2><p>Nông sản và món ngon chọn lọc, tiện dùng và phù hợp làm quà tặng.</p></div>
+                    <a href="#" class="text-link">Xem tất cả <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card"><div class="product-image"><img src="asset/img/dongHop/ruouCan.jpg" alt="Rượu cần Tây Nguyên" loading="lazy"><span class="badge">Bán chạy</span><button class="favorite"><i class='bx bx-heart'></i></button></div><div class="product-info"><span class="product-category">Đặc sản ẩm thực truyền thống</span><h3>Rượu cần Tây Nguyên</h3><p>Rượu cần Tây Nguyên là thức uống truyền thống gắn liền với đời sống văn hóa, lễ hội của các dân tộc thiểu số vùng đại ngàn. Rượu được ủ men lá rừng tự nhiên trong ghè gốm với nếp hoặc mỳ (sắn), mang hương vị nồng nàn, chua ngọt thanh mát và thoảng mùi thơm nguyên sơ của núi rừng.</p><div class="product-bottom"><span class="price">Đậm bản sắc dân tộc</span><a href="#" class="quick-buy">Mua nhanh</a></div></div></article>
+                    <article class="product-card"><div class="product-image"><img src="asset/img/dongHop/caCaoNguyenChat.jpg" alt="Ca Cao nguyên chất" loading="lazy"><button class="favorite"><i class='bx bx-heart'></i></button></div><div class="product-info"><span class="product-category">Nông sản</span><h3>Ca Cao nguyên chất</h3><p>Bột cacao nguyên chất được chế biến 100% từ hạt cacao xay mịn, không pha trộn đường, sữa hay chất bảo quản. Sản phẩm giữ trọn hương vị đắng nhẹ, hậu vị béo thơm tự nhiên và giàu chất chống oxy hóa, hỗ trợ tim mạch cùng tinh thần minh mẫn.</p><div class="product-bottom"><span class="price">Nguyên chất</span><a href="#" class="quick-buy">Mua nhanh</a></div></div></article>
+                    <article class="product-card"><div class="product-image"><img src="asset/img/dongHop/hatKoNia.jpg" alt="Hạt Kơ-nia" loading="lazy"><button class="favorite"><i class='bx bx-heart'></i></button></div><div class="product-info"><span class="product-category">Hạt dinh dưỡng</span><h3>Hạt Kơ-nia</h3><p>Hạt rừng đặc trưng của đại ngàn, khi rang dậy mùi thơm, vị bùi béo tự nhiên và giòn vui miệng.</p><div class="product-bottom"><span class="price">Giòn bùi tự nhiên</span><a href="#" class="quick-buy">Mua nhanh</a></div></div></article>
+                    <article class="product-card"><div class="product-image"><img src="asset/img/dongHop/hatDieuRangMuoi.jpg" alt="Hạt điều" loading="lazy"><button class="favorite"><i class='bx bx-heart'></i></button></div><div class="product-info"><span class="product-category">Hạt dinh dưỡng</span><h3>Hạt điều rang muối</h3><p>Hạt điều rang muối Tây Nguyên là đặc sản nổi tiếng của vùng đất đỏ bazan, nổi bật với hạt to tròn, mẩy, giòn rụm và vị béo bùi đặc trưng hòa quyện cùng chút mặn nhẹ của muối biển.</p><div class="product-bottom"><span class="price">Béo giòn</span><a href="#" class="quick-buy">Mua nhanh</a></div></div></article>
+                    <article class="product-card"><div class="product-image"><img src="asset/img/dongHop/hatMacCa.jpg" alt="Hạt Mắc Ca" loading="lazy"><span class="badge green">Cao cấp</span><button class="favorite"><i class='bx bx-heart'></i></button></div><div class="product-info"><span class="product-category">Hạt dinh dưỡng</span><h3>Hạt Mắc Ca</h3><p>Hạt mắc ca Tây Nguyên là đặc sản cao cấp được ví như "hoàng hậu của các loại hạt", nổi bật với phần nhân tròn đầy, màu trắng sữa, giòn tan cùng vị béo bùi, thơm ngậy tự nhiên.</p><div class="product-bottom"><span class="price">Nữ hoàng của các loại hạt</span><a href="#" class="quick-buy">Mua nhanh</a></div></div></article>
+                    
+                </div>
+            </div>
+        </section>
+
+
+    <footer class="footer">
+        <div class="wrap footer-grid">
+            <div class="footer-brand">
+                <a class="brand footer-logo" href="index.html"><span class="brand-mark"><i class='bx bxs-leaf'></i></span><span class="brand-text"><strong>ĐẶC SẢN</strong><b>TÂY NGUYÊN</b><small>Tinh hoa đại ngàn</small></span></a>
+                <p>Gìn giữ và lan tỏa những hương vị đặc trưng của núi rừng Tây Nguyên đến mọi miền.</p>
+                <div class="socials"><a href="#"><i class='bx bxl-facebook'></i></a><a href="#"><i class='bx bxl-instagram'></i></a><a href="#"><i class='bx bxl-tiktok'></i></a></div>
+            </div>
+            <div><h4>Về chúng tôi</h4><a href="#cau-chuyen">Câu chuyện thương hiệu</a><a href="#">Nguồn gốc sản phẩm</a><a href="#">Tin tức</a></div>
+            <div><h4>Sản phẩm</h4><a href="#an-ngay">Món ăn ngay</a><a href="#dong-hop">Sản phẩm đóng gói</a><a href="#ban-chay">Bán chạy</a></div>
+            <div><h4>Hỗ trợ khách hàng</h4><a href="#">Hướng dẫn mua hàng</a><a href="#">Chính sách giao hàng</a><a href="#">Đổi trả sản phẩm</a><a href="#">Câu hỏi thường gặp</a></div>
         </div>
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/anNgay/comLam.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Cơm lam</h4>
-                <p>Từ lâu, cơm lam đã là một món ăn truyền thống của những người con vùng núi. Cơm được nấu trong ống
-                    tre, nén chặt bằng lá chuối đem vùi trong lửa. Khi chín sẽ có vị thanh ngọt của tre hòa quyện với
-                    vị ngọt của hạt gạo, rất hấp dẫn người thưởng thức.</p>
-                <button class="add-to-cart">
-                    Chọn món
-                </button>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/anNgay/goiLa.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Gỏi lá</h4>
-                <p>Gỏi lá là một trong những món ăn thuộc top 10 đặc sản Việt Nam có giá trị ẩm thực sâu sắc. Nó được
-                    lựa chọn từ 40 loại lá khác nhau, có thể ăn kèm với thịt ba chỉ, da heo thái mỏng, tôm rang chấm với
-                    nước chấm sền sệt.</p>
-                <button class="add-to-cart">
-                    Chọn món
-                </button>
-            </div>
-        </div>
-
-    </div>
-
-    <br>
-    <div class="forH1">
-        <h1>SẢN PHẨM ĐÓNG HỘP</h1>
-    </div>
-    <br>
-    <div class="container">
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/dongHop/boKho.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Bò khô</h4>
-                <p>Bò khô Tây Nguyên thơm ngon đậm vị, được tẩm ướp gia vị tỉ mỉ, sấy khô tự nhiên giữ nguyên độ ngọt
-                    dai của thịt bò rẫy.</p>
-                <button class="add-to-cart">
-                    Thêm vào giỏ hàng
-                </button>
-            </div>
-        </div>
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/dongHop/caCaoNguyenChat.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Ca Cao nguyên chất</h4>
-                <p>Bột ca cao nguyên chất từ vùng đất đỏ Đắk Lắk, hương thơm nồng nàn, vị đắng thanh tự nhiên giàu giá
-                    trị dinh dưỡng.</p>
-                <button class="add-to-cart">
-                    Thêm vào giỏ hàng
-                </button>
-            </div>
-        </div>
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/dongHop/HatBiSay.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Hạt bí sấy</h4>
-                <p>Hạt bí sấy khô tự nhiên, hạt to mẩy, giòn bùi thơm ngậy, món ăn vặt lành mạnh cho cả gia đình.</p>
-                <button class="add-to-cart">
-                    Thêm vào giỏ hàng
-                </button>
-            </div>
-        </div>
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/dongHop/hatDieu.webp" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Hạt điều </h4>
-                <p>Hạt điều rang muối thơm giòn, béo bùi chuẩn vị nông sản Tây Nguyên chất lượng cao.</p>
-                <button class="add-to-cart">
-                    Thêm vào giỏ hàng
-                </button>
-            </div>
-        </div>
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/dongHop/hatMacCa.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Hạt Mắc Ca</h4>
-                <p>Hạt mắc ca Tây Nguyên nứt vỏ tự nhiên, hạt màu trắng sữa thơm giòn béo ngậy được ví như nữ hoàng quả
-                    khô.</p>
-                <button class="add-to-cart">
-                    Thêm vào giỏ hàng
-                </button>
-            </div>
-        </div>
-
-
-        <div class="card">
-
-            <div class="card-img">
-                <img src="asset/img/dongHop/meDotOtDo.jpg" alt="ganuong">
-                <i class="bx bx-star"></i>
-            </div>
-
-            <div class="card-content">
-                <h4>Me dốt ớt đỏ</h4>
-                <p>Me dốt chua ngọt thấm vị muối ớt cay nồng, món ăn vặt khoái khẩu chuẩn vị đặc sản đường phố.</p>
-                <button class="add-to-cart">
-                    Thêm vào giỏ hàng
-                </button>
-            </div>
-        </div>
-
-    </div>
-
-    <script src="main.js"></script>
+        <div class="wrap footer-bottom"><p>Đặc Sản Tây Nguyên.</p><p>Thiết kế lấy cảm hứng từ sắc màu Tây Nguyên.</p></div>
+    </footer>
 </body>
-
 </html>
